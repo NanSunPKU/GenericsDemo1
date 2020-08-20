@@ -1,13 +1,18 @@
 package com.company;
 
+import com.company.collections.CollectionsDemo;
+import com.company.collections.ListDemo;
 import com.company.generics.*;
 
 public class Main {
     public static void main(String[] args) {
-        var users = new GenericList<User>();
-//        Utils.printUsers(new GenericList<User>());
+        ListDemo.show();
     }
 }
+
+
+//        var users = new GenericList<User>();
+//        Utils.printUsers(new GenericList<User>());
 //        Utils.print(1, 10);
 
         //		var max = Utils.max(new User(10), new User(30));
